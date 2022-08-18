@@ -1,26 +1,24 @@
 import React from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter} from "react-router-dom";
-import Rutas from "../src/Rutas"
+import Login from "../src/pages/Login"
 
 
 function App() {
   return ( 
     <>
        
-    <BrowserRouter>
+    <Login/>
 
 
         
-        <Rutas/>
+      
         
    
         
 
          
 
-    </BrowserRouter>
   </> 
  
   );

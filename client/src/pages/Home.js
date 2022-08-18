@@ -19,7 +19,7 @@ const Home = () => {
     <Container>
     
 
-      {accessToken ? <MainShow /> : <Login/>}
+      {code ? <MainShow /> : <Login/>}
     </Container>
   )
 };
