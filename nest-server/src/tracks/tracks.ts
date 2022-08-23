@@ -1,5 +1,5 @@
 import { Track } from './track';
 
 export class Tracks {
-  [key: number]: Track;
+  [id: number]: Track;
 }

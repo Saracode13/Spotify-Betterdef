@@ -6,12 +6,12 @@ import { Track } from './track';
 export class TracksController {
   constructor(private tracksService: TracksService) {}
   @Get()
-  async getAllTracks() {
-    this.tracksService.getAllTracks();
+  async getTracks() {
+    this.tracksService.getTracks();
   }
 
-  @Get(':id')
-  async getOneTrack(@Param('id') id: number): Promise<Track> {
-    return this.tracksService.getOneTrack(id);
+  @Get('trackId')
+  async getOneTrack(@Param('trackId') trackId: number): Promise<Track> {
+    return this.tracksService.getOneTrack(trackId);
   }
 }
