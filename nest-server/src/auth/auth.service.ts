@@ -6,5 +6,5 @@ export class AuthService {
   private spotifyApi = new SpotifyWebApi();
   public async getAccessToken() {
     return this.spotifyApi.getAccessToken;
-  } 
+  }
 }

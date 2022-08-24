@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react"
 import useAuth from "../components/useAuth"
 import Player from "../components/Player"
@@ -8,10 +7,10 @@ import SpotifyWebApi from "spotify-web-api-node"
 import axios from "axios"
 
 const spotifyApi = new SpotifyWebApi({
-  clientId: "dbecbbca8a7845639c96927afbb145ed",
+  clientId: "3edd1e09d44943ea8908ac67d569d795",
 })
 
-export default function MainShow ({ code }) {
+export default function MainShow ({code}) {
   const accessToken = useAuth(code)
   const [search, setSearch] = useState("")
   const [searchResults, setSearchResults] = useState([])
