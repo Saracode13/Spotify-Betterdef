@@ -89,6 +89,7 @@ export default function MainShow ({code}) {
             chooseTrack={chooseTrack}
           />
         ))}
+        
         {searchResults.length === 0 && (
           <div className="text-center" style={{ whiteSpace: "pre" }}>
             {lyrics}

@@ -6,14 +6,18 @@ const AUTH_URL =
 
 export default function Login() {
   return (
-    <Container
-      className="d-flex justify-content-center align-items-center"
-      style={{ minHeight: "100vh" }}
-    >
-      <a className="btn btn-success btn-lg" href={AUTH_URL}>
-        Login With Spotify
-      </a>
-    </Container>
+    // <Container style={{backgroundColor: "#33FFA5"}} >
+    //   <h1 style= {{color:"#3633FF", fontWeight: "500"}} >Distruta de la música dondequiera que estés</h1>
+    //   <h2 style= {{color:"#3633FF"}}>Escucha las mejores novedades</h2>
+        <Container>
+        className="d-flex justify-content-center align-items-center"
+        style={{ minHeight: "100vh" }}
+      
+        <a className="btn btn-success btn-lg" href={AUTH_URL}>
+          Login With Spotify
+        </a>
+        </Container>
+    // </Container>
   )
 }
 
