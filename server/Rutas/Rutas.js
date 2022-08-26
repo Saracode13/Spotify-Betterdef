@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes,} from "react-router-dom";
+/*import {BrowserRouter, Route, Routes,} from "react-router-dom";
 import HomePage from "./pages/HomePage"
 import MainShow from "./pages/MainShow";
 
@@ -17,4 +17,4 @@ export default function Rutas() {
 )
 
 }
-
+*/
