@@ -74,14 +74,16 @@ export default function MainShow ({code}) {
   }, [search, accessToken])
 
   return (
-    <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
-      <Form.Control style={{ borderColor: "green" }}
+    <Container className="d-flex flex-column py-2" 
+    style={{ height: "100vh"}}>
+      <Form.Control style={{ borderColor:'#03e9f4' }}
         type="search"
         placeholder="Search Songs/Artists"
         value={search}
         onChange={e => setSearch(e.target.value)}
       />
-      <div className="flex-grow-1 my-2" style={{ overflowY: "auto" }}>
+      <div className="flex-grow-1 my-2" 
+      style={{ overflowY: "auto" }}>
         {searchResults.map(track => (
           <TrackSearchResult
             track={track}
