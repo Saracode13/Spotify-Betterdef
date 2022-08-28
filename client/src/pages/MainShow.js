@@ -74,7 +74,7 @@ export default function MainShow ({code}) {
   }, [search, accessToken])
 
   return (
-    <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
+    <Container className="d-flex flex-column py-2" style={{ height: "100vh", backgroundColor:"#FFC733" }}>
       <Form.Control style={{ borderColor: "green" }}
         type="search"
         placeholder="Search Songs/Artists"

@@ -8,8 +8,9 @@ import MainShow from "../src/pages/MainShow";
 const code = new URLSearchParams(window.location.search).get("code")
 
 function App() {
-  
+
   return code ? <MainShow code={code} /> :<HomePage />
+  
 }
 
 export default App;
