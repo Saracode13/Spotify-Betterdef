@@ -7,20 +7,7 @@ const AUTH_URL =`https://accounts.spotify.com/authorize?client_id=${process.env.
 
 export default function Login() {
   return (
-<<<<<<< HEAD
-    <Container className="d-flex justify-content-center align-items-center space-around" style={{backgroundColor: "#33FFA5"}} >
-      <h1 className="d-flex justify-content-center align-items-center" style= {{color:"#3633FF", fontWeight: "700"}} >Disfruta de la música dondequiera que estés</h1>
-      <img src= {foto} alt="" class="rounded" ></img>
-        <Container
-        className="d-flex justify-content-center align-items-center"
-        style={{ minHeight: "100vh" }}>
-      
-        <a className="btn btn-success btn-lg" href={AUTH_URL}>
-          Login With Spotify
-        </a>
-         </Container> 
-     </Container>
-=======
+
    
     <Container
       className="d-flex justify-content-center align-items-center"
