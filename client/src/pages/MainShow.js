@@ -7,7 +7,7 @@ import SpotifyWebApi from "spotify-web-api-node"
 import axios from "axios"
 
 const spotifyApi = new SpotifyWebApi({
-  clientId: "3edd1e09d44943ea8908ac67d569d795",
+  clientId: process.env.REACT_APP_CLIENT_ID,
 })
 
 export default function MainShow ({code}) {
@@ -74,14 +74,21 @@ export default function MainShow ({code}) {
   }, [search, accessToken])
 
   return (
+<<<<<<< HEAD
     <Container className="d-flex flex-column py-2" style={{ height: "100vh", backgroundColor:"#FFC733" }}>
       <Form.Control style={{ borderColor: "green" }}
+=======
+    <Container className="d-flex flex-column py-2" 
+    style={{ height: "100vh"}}>
+      <Form.Control style={{ borderColor:'#03e9f4' }}
+>>>>>>> f647f1934c6eb5becccb47a22792a73af85bc31e
         type="search"
         placeholder="Search Songs/Artists"
         value={search}
         onChange={e => setSearch(e.target.value)}
       />
-      <div className="flex-grow-1 my-2" style={{ overflowY: "auto" }}>
+      <div className="flex-grow-1 my-2" 
+      style={{ overflowY: "auto" }}>
         {searchResults.map(track => (
           <TrackSearchResult
             track={track}

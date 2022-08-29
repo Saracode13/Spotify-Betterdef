@@ -1,0 +1,76 @@
+SPOTIFY-BETTERDEF
+
+Tabla de Contenidos
+Información General
+Capturas de Pantalla
+Instalación
+Soporte
+Hoja de ruta
+Colaboración
+Autores
+
+Información General
+SPOTUFY-BETTERDEF es una aplicación de búsqueda de canciones por artista y título para gestionar listas musicales. También permite ver las letras de las canciones mientras éstas se están reproduciendo, de modo que la persona que escucha las canciones pueda seguir la letra y, por ejemplo, cantarlas mientras las escucha.
+
+Para que las personas usuarias puedan acceder a la aplicacion, deberán logearse y de este modo acceder a la lista de canciones y artistas.
+
+
+
+Capturas de pantalla
+
+
+Tecnologías
+Lista de tecnologías usadas en el desarrollo del proyecto:
+
+HTML: Version HTML 5
+JavaScript
+Node Js
+React
+Npm
+Express
+Nest
+Heroku
+Axios
+Cors
+Spotify-web-api-node
+
+
+Instalación
+Como instalar el repositorio:
+
+Ingresar en Visual Studio Code
+Clonar el proyecto con el comando:
+git clone https://github.com/Saracode13/Spotify-Betterdef.git
+En ordenador instalar:
+1. Instalar Node js
+2. En la terminal del Visual Studio Code, escribir el comando:
+
+npm i 
+
+Soporte
+Si tiene cualquier problema póngase en contacto con:
+
+
+
+Hoja de ruta
+La aplicación consiste en una primera página con el botón de login. Una vez logueada la persona usuaria, es redirigida a una segunda página con una barra de búsqueda en la parte superior de la misma en la que se escribirán los nombres de las canciones o artistas buscados. 
+
+Inmediatamente aparecerá en pantalla la canción o artista buscados y en la parte inferior podremos ver el reproductor de canciones . Al hacer click en la canción seleccionada aparecerá la letra de la misma, al mismo tiempo que comnenzará a reproducirse.
+
+La web es resposive, para poder visualizarla desde cualquier dispositivo.
+
+Colaboración
+
+
+Autores
+Alejandra Piatti
+Sara Egea
+
+FAQs
+Preguntas frecuentes:
+
+¿Tengo problemas con React, no me deja ejecutar la página? Mirar si está en el explorador de archivos, la carpeta "node_modules". En caso de no estar, ir a la terminal y ejecutar el comando
+npm i 
+¿Tengo problemas poder ejecutar Json-server?
+Ejecutar PowerShell en windows ( o terminal en IOS) como administrador y ejecutar el siguiente comando:
+
